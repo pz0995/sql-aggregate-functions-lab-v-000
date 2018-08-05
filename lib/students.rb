@@ -19,7 +19,7 @@ def average_student_gpa
 end
 
 def total_tardies_for_all_students
-  "SELECT SUM(QUANTITY)
+  "SELECT SUM(TARDIES)
   FROM STUDENTS;"
 end
 
