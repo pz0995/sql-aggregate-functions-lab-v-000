@@ -9,7 +9,7 @@ end
 def lowest_student_gpa
   "SELECT MIN(GPA)
   FROM STUDENTS;"
-  WHERE condition;"
+  # WHERE condition;"
 end
 
 def average_student_gpa
