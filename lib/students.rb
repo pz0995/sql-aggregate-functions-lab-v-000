@@ -13,18 +13,18 @@ def lowest_student_gpa
 end
 
 def average_student_gpa
-  "SELECT AVG(column_name)
+  "SELECT AVG(GPA)
   FROM table_name
   WHERE condition;"
 end
 
 def total_tardies_for_all_students
-  "SELECT SUM(Quantity)
+  "SELECT SUM(QUANTITY)
   FROM OrderDetails;"
 end
 
 def average_gpa_for_9th_grade
-  "SELECT AVG(column_name)
+  "SELECT AVG(GPA)
   FROM table_name
   WHERE condition;"
 end
