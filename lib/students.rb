@@ -1,13 +1,13 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
 
 def highest_student_gpa
-  "SELECT MAX(column_name)
+  "SELECT MAX(GPA)
   FROM table_name
   WHERE condition;"
 end
 
 def lowest_student_gpa
-  "SELECT MIN(column_name)
+  "SELECT MIN(GPA)
   FROM table_name
   WHERE condition;"
 end
