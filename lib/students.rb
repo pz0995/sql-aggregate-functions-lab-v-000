@@ -2,20 +2,20 @@
 
 def highest_student_gpa
   "SELECT MAX(GPA)
-  FROM STUDENTS
-  WHERE condition;"
+  FROM STUDENTS;"
+  # WHERE condition;"
 end
 
 def lowest_student_gpa
   "SELECT MIN(GPA)
-  FROM STUDENTS
+  FROM STUDENTS;"
   WHERE condition;"
 end
 
 def average_student_gpa
   "SELECT AVG(GPA)
-  FROM STUDENTS
-  WHERE condition;"
+  FROM STUDENTS;"
+  # WHERE condition;"
 end
 
 def total_tardies_for_all_students
@@ -25,6 +25,6 @@ end
 
 def average_gpa_for_9th_grade
   "SELECT AVG(GPA)
-  FROM STUDENTS
-  WHERE condition;"
+  FROM STUDENTS;"
+  # WHERE condition;"
 end
